@@ -1,7 +1,3 @@
-
-https://github.com/user-attachments/assets/375d8b54-669e-48fe-a8b2-b2f66e166712
-
-https://github.com/user-attachments/assets/29bf8c2f-1297-4457-8280-c4e90d14c3f6
 # **Analog Sensor Example Using Arduino (LDR and LED)**
 
 This example demonstrates how to use an analog sensor with an Arduino. The analog sensor used is an LDR (Light Dependent Resistor) that measures light intensity. Based on the detected light level, the Arduino controls an LED to turn ON or OFF using a predefined threshold.
@@ -41,8 +37,9 @@ This example demonstrates how to use an analog sensor with an Arduino. The analo
 ## **Preview**
 Here are some preview images of the circuit design:
 
+![Circuit 1](https://github.com/user-attachments/assets/18968dc7-ee7c-44ec-8fc7-6babb7488eb5?raw=true)
 
-
+![Circuit 2](https://github.com/user-attachments/assets/20d9f3b3-4169-4d7a-abf9-7e8c3e718ab2?raw=true)
 
 *Note: Upload your videos separately or include them as links.*
 

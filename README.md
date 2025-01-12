@@ -1,6 +1,10 @@
+
+https://github.com/user-attachments/assets/375d8b54-669e-48fe-a8b2-b2f66e166712
+
+https://github.com/user-attachments/assets/29bf8c2f-1297-4457-8280-c4e90d14c3f6
 # **Analog Sensor Example Using Arduino (LDR and LED)**
 
-This example demonstrates how to use an analog sensor with an Arduino. The analog sensor used is an LDR (Light Dependent Resistor) that measures the light intensity. Based on the detected light level, the Arduino controls the LED to turn ON or OFF using a predefined threshold.
+This example demonstrates how to use an analog sensor with an Arduino. The analog sensor used is an LDR (Light Dependent Resistor) that measures light intensity. Based on the detected light level, the Arduino controls an LED to turn ON or OFF using a predefined threshold.
 
 ---
 
@@ -26,11 +30,21 @@ This example demonstrates how to use an analog sensor with an Arduino. The analo
 - Breadboard and jumper wires
 
 ### **Connections**
-- **LDR Circuit**: One terminal to `5V`, the other to a 10kΩ resistor. The junction between the LDR and resistor connects to `A0` on the Arduino.
-- **LED Circuit**: Positive leg (anode) to pin `8` via a 220Ω resistor, negative leg (cathode) to `GND`.
+- **LDR Circuit**: One terminal of the LDR is connected to `5V`, the other to a 10kΩ resistor. The junction between the LDR and resistor connects to `A0` on the Arduino.
+- **LED Circuit**: The anode (positive leg) of the LED is connected to pin `8` via a 220Ω resistor, and the cathode (negative leg) is connected to `GND`.
 
 #### **Tinkercad Link**
 [Tinkercad Project Link](https://www.tinkercad.com/things/cm2purS069r-analog-sensor/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=KsQrry4k7m5rRoSADLwFb3rqqjC0vzIGVMFp6Oyn88M)
+
+---
+
+## **Preview**
+Here are some preview images of the circuit design:
+
+
+
+
+*Note: Upload your videos separately or include them as links.*
 
 ---
 
@@ -59,21 +73,3 @@ void loop() {
   
   delay(100);  // Small delay for stability
 }
-
-
-##**Example Demonstration**
-	1.	Place the circuit components as per the diagram.
-	2.	Upload the code to the Arduino board.
-	3.	Open the Serial Monitor (set baud rate to 9600) to observe live readings.
-	4.	Test by covering the LDR (to simulate darkness) and observe the LED turning ON.
-
-Project Images
-	1.	Circuit Diagram
-
-	2.	Code Overview
-
-Applications
-	•	Smart lighting systems.
-	•	Light-sensitive devices for energy efficiency.
-	•	Real-world examples like automatic streetlights.
-
